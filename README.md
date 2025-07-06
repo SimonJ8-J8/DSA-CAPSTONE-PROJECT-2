@@ -11,10 +11,12 @@ It provides insights into workforce structure, reward distribution, and data qua
 ## 📦 Dataset Overview
 
 ### `emp-data.csv`
+
 Includes:
 - `Name`, `Gender`, `Department`, `Salary`, `Location`, `Rating`
 
-### `Bonus Rules.xlsx`
+### `Bonus Rules.xlsx
+
 Bonus multiplier matrix based on:
 - **Department** (rows)
 - **Rating** (columns: Very Poor → Very Good)
@@ -53,6 +55,7 @@ Bonus Percentage is looked up from a matrix using both `Department` and `Rating`
 
 ## 🔍 Key Findings
 
+
 - **High performers (Very Good)** earn the most bonuses — up to **8.8%** of salary.
 - **Sales** and **Engineering** receive the highest average bonuses due to larger team size.
 - **Missing data**: Some records lack department or rating, impacting bonus eligibility.
@@ -61,6 +64,7 @@ Bonus Percentage is looked up from a matrix using both `Department` and `Rating`
 ---
 
 ## 📊 Suggested Visualizations
+
 
 *To be created with Excel or Power BI:*
 
@@ -74,6 +78,7 @@ Bonus Percentage is looked up from a matrix using both `Department` and `Rating`
 
 ## 💡 Business Recommendations
 
+
 - 🎯 **Reward top talent:** Ensure fairness and visibility of bonus structure.
 - 🧹 **Clean data gaps:** Address missing departments and ratings to improve analysis.
 - ⚖️ **Close gender gaps:** Explore reasons for lower ratings in underrepresented groups.
@@ -82,6 +87,7 @@ Bonus Percentage is looked up from a matrix using both `Department` and `Rating`
 ---
 
 ## 🧰 Tools Used
+
 
 | Tool       | Purpose                     |
 |------------|-----------------------------|
@@ -93,6 +99,7 @@ Bonus Percentage is looked up from a matrix using both `Department` and `Rating`
 
 ## 📁 Recommended Repository Structure
 
+
 ```plaintext
 📦 palmoria-employee-bonus
 ├── data/
@@ -103,7 +110,9 @@ Bonus Percentage is looked up from a matrix using both `Department` and `Rating`
 ├── visuals/
 │   └── charts, graphs (optional)
 ├── README.md
+
 ### ✍️ Author
+
 Simon Justice
 Business Data Analyst
 Skills: Excel • Power BI • SQL • Python
@@ -122,15 +131,19 @@ Upload the final project to GitHub or share as a portfolio asset.
 
 # 🏢 Presentation Summary on Palmoria Group Employee Bonus Analysis
 
+
 ---
 
 ## 🎯 Executive Summary
+
+
 
 This project analyzes employee data from Palmoria Group and applies department-specific bonus rules based on employee performance ratings. The analysis identifies disparities, reward trends, and opportunities for HR policy improvement using structured Excel-based calculations and insights.
 
 ---
 
 ## 📌 Project Objectives
+
 
 - ✅ Clean and organize employee records
 - 💰 Calculate individual bonuses based on department and rating
@@ -142,16 +155,23 @@ This project analyzes employee data from Palmoria Group and applies department-s
 
 ## 📁 Dataset Overview
 
+
 ### `emp-data.csv`
+
+
 - `Name`, `Gender`, `Department`, `Salary`, `Location`, `Rating`
 
 ### `Bonus Rules.xlsx`
+
+
 - Bonus percentages by **Department × Performance Rating**  
   *(Very Poor → Very Good)*
 
 ---
 
 ## 🧮 Bonus Calculation Logic
+
+
 
 Each employee’s bonus is calculated with:
 
@@ -171,6 +191,7 @@ Edit
 
 ## 📊 Key Findings
 
+
 - 🎯 **High performers** (Very Good) earned the **largest share of bonuses**
 - 📉 **Data gaps** found: Missing department or rating affected calculations
 - 🧑‍🤝‍🧑 **Gender split** in top ratings favored male employees in technical roles
@@ -179,6 +200,7 @@ Edit
 ---
 
 ## 📈 Suggested Visuals
+
 
 | Visual Type | Insight |
 |-------------|---------|
@@ -190,6 +212,7 @@ Edit
 ---
 
 ## 💡 Business Recommendations
+
 
 1. **Clean Data Regularly**  
    Ensure every employee has complete department & rating information.
@@ -207,6 +230,7 @@ Edit
 
 ## 🧰 Tools Used
 
+
 | Tool     | Purpose |
 |----------|---------|
 | Excel    | Bonus rules, data cleaning, PivotTables |
@@ -217,6 +241,7 @@ Edit
 ---
 
 ## 📁 Repository Layout
+
 
 ```plaintext
 📦 palmoria-employee-bonus
@@ -231,5 +256,6 @@ Edit
 
 ### ✍️ Author
 Dawat Ezra Simon
+
 📌 Business Data Analyst
 📊 Excel • Power BI • SQL • HR Analytics
